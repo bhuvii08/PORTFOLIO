@@ -2,6 +2,10 @@
 
 A responsive, single-page personal portfolio for Bhoomika Singh, built with plain HTML, CSS, and JavaScript.
 
+## Live Demo
+
+- https://bhuvii08.github.io/PORTFOLIO/
+
 ## Highlights
 
 - Clean and modern one-page layout
@@ -57,6 +61,8 @@ Optional: use VS Code Live Server for auto-reload during edits.
 ## Deployment
 
 This project can be deployed easily on GitHub Pages, Netlify, or Vercel as a static site.
+
+For GitHub Pages, set source to `Deploy from a branch` and select `main` / `root`.
 
 ## License
 
