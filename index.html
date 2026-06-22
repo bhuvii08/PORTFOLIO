@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#07111f">
+    <title>Bhoomika Singh | Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+    <link rel="shortcut icon" href="favicon.svg?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="progress-bar"></div>
+    <div class="page-bg page-bg-one"></div>
+    <div class="page-bg page-bg-two"></div>
+
+    <nav class="navbar">
+        <a class="logo" href="#home" aria-label="Bhoomika Singh home">Bhoomika<span>.</span></a>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="hero-copy" data-reveal>
+                <p class="eyebrow">Computer Science Engineering Student</p>
+                <h1>Bhoomika Singh</h1>
+                <p class="hero-role"><span>I build</span> <span id="typing"></span></p>
+                <p class="hero-description">
+                    Computer Science Engineering student at KIET Deemed To Be University with a CGPA of 9.05.
+                    I focus on frontend development, AI-powered experiences, full stack systems, and thoughtful problem solving.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">Explore Work</a>
+                    <a href="bhoomika.pdf" class="btn btn-secondary" download>Download Resume</a>
+                </div>
+
+                <div class="hero-metrics">
+                    <article>
+                        <strong>9.05</strong>
+                        <span>CGPA</span>
+                    </article>
+                    <article>
+                        <strong>4+</strong>
+                        <span>Core domains</span>
+                    </article>
+                    <article>
+                        <strong>Responsive</strong>
+                        <span>Design-first mindset</span>
+                    </article>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/bhoomika-singh-3738972a8/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://leetcode.com/u/Bhumi_Ghartaan/" target="_blank" rel="noreferrer" aria-label="LeetCode profile"><i class="fa-solid fa-code"></i></a>
+                    <a href="https://github.com/bhuvii08" target="_blank" rel="noreferrer" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-visual" data-reveal>
+                <div class="portrait-frame">
+                    <img src="images/profile.jpg" alt="Bhoomika Singh portrait">
+                </div>
+                <div class="floating-card floating-card-top">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <div>
+                        <strong>Frontend Craft</strong>
+                        <span>Clean UI and motion</span>
+                    </div>
+                </div>
+                <div class="floating-card floating-card-bottom">
+                    <i class="fa-solid fa-brain"></i>
+                    <div>
+                        <strong>AI Ready</strong>
+                        <span>Data-driven thinking</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section content-section">
+            <div class="section-heading" data-reveal>
+                <p class="eyebrow">About Me</p>
+                <h2>Designing useful digital experiences with a practical engineering mindset.</h2>
+            </div>
+
+            <div class="about-grid">
+                <article class="panel panel-large" data-reveal>
+                    <p>
+                        I am a motivated Computer Science Engineering student who enjoys creating innovative solutions.
+                        My experience spans AI-based applications, web development projects, and health-tech concepts.
+                        I care about polish, clarity, and building products that work well on every screen.
+                    </p>
+                    <p>
+                        My goal is to grow as a software engineer who can design, build, and ship impactful products.
+                    </p>
+                </article>
+
+                <div class="about-side">
+                    <article class="panel" data-reveal>
+                        <span class="mini-label">Focus</span>
+                        <h3>Frontend, AI, full stack</h3>
+                        <p>From clean interfaces to practical logic, I like working across the full product surface.</p>
+                    </article>
+                    <article class="panel" data-reveal>
+                        <span class="mini-label">Approach</span>
+                        <h3>Responsive by default</h3>
+                        <p>Layouts, spacing, and interactions are built to hold up on desktop, tablet, and mobile.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-heading" data-reveal>
+                <p class="eyebrow">Technical Skills</p>
+                <h2>A focused stack for building modern interfaces and dependable logic.</h2>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card" data-reveal><i class="fa-brands fa-html5"></i><h3>HTML5</h3><p>Semantic structure and accessible markup.</p></article>
+                <article class="skill-card" data-reveal><i class="fa-brands fa-css3-alt"></i><h3>CSS3</h3><p>Responsive layouts, animation, and visual polish.</p></article>
+                <article class="skill-card" data-reveal><i class="fa-brands fa-js"></i><h3>JavaScript</h3><p>Interactive UI behavior and browser logic.</p></article>
+                <article class="skill-card" data-reveal><i class="fa-brands fa-react"></i><h3>React JS</h3><p>Component-driven interfaces and reusable UI patterns.</p></article>
+                <article class="skill-card" data-reveal><i class="fa-brands fa-node-js"></i><h3>Node JS</h3><p>Server-side JavaScript and API workflows.</p></article>
+                <article class="skill-card" data-reveal><i class="fa-brands fa-python"></i><h3>Python</h3><p>Automation, problem solving, and AI workflows.</p></article>
+                <article class="skill-card" data-reveal><i class="fa-solid fa-database"></i><h3>SQL</h3><p>Data modeling and query fundamentals.</p></article>
+                <article class="skill-card" data-reveal><i class="fa-solid fa-code"></i><h3>C / C++</h3><p>Core programming and algorithmic thinking.</p></article>
+                <article class="skill-card" data-reveal><i class="fa-solid fa-layer-group"></i><h3>System Design</h3><p>Thinking about structure, flow, and scale.</p></article>
+            </div>
+        </section>
+
+        <section id="projects" class="section content-section">
+            <div class="section-heading" data-reveal>
+                <p class="eyebrow">Projects</p>
+                <h2>Selected work areas that reflect your frontend, AI, and problem-solving strengths.</h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card" data-reveal>
+                    <span class="project-tag">AI application</span>
+                    <h3>Smart assistant experience</h3>
+                    <p>A product concept focused on practical automation, clear user journeys, and fast feedback.</p>
+                    <ul>
+                        <li>Conversational flow</li>
+                        <li>Clean UI states</li>
+                        <li>Useful interactions</li>
+                    </ul>
+                    <a href="#contact">Discuss project</a>
+                </article>
+
+                <article class="project-card" data-reveal>
+                    <span class="project-tag">Web development</span>
+                    <h3>Responsive portfolio system</h3>
+                    <p>A polished personal site built to present skills, experience, and resume information across devices.</p>
+                    <ul>
+                        <li>Mobile-first layout</li>
+                        <li>Elegant motion</li>
+                        <li>Resume integration</li>
+                    </ul>
+                    <a href="bhoomika.pdf" download>Open resume</a>
+                </article>
+
+                <article class="project-card" data-reveal>
+                    <span class="project-tag">Health-tech</span>
+                    <h3>Practical solution concept</h3>
+                    <p>A lightweight solution idea designed around clarity, accessibility, and useful information delivery.</p>
+                    <ul>
+                        <li>Simple UX</li>
+                        <li>Readable structure</li>
+                        <li>Scalable foundation</li>
+                    </ul>
+                    <a href="#contact">Work with me</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="achievements" class="section">
+            <div class="section-heading" data-reveal>
+                <p class="eyebrow">Achievements</p>
+                <h2>Highlights that communicate consistency, learning, and execution.</h2>
+            </div>
+
+            <div class="achievement-grid">
+                <article class="panel achievement-card" data-reveal><strong>9.05 CGPA</strong><span>Strong academic performance</span></article>
+                <article class="panel achievement-card" data-reveal><strong>Frontend focus</strong><span>Responsive UI and component work</span></article>
+                <article class="panel achievement-card" data-reveal><strong>AI interest</strong><span>Exploring practical intelligent features</span></article>
+                <article class="panel achievement-card" data-reveal><strong>Problem solving</strong><span>Algorithmic and logical thinking</span></article>
+            </div>
+        </section>
+
+        <section id="education" class="section content-section">
+            <div class="section-heading" data-reveal>
+                <p class="eyebrow">Education</p>
+                <h2>Building a CS foundation while developing product-oriented skills.</h2>
+            </div>
+
+            <div class="timeline" data-reveal>
+                <article class="timeline-item">
+                    <span class="timeline-dot"></span>
+                    <div>
+                        <p class="timeline-period">Current</p>
+                        <h3>KIET Deemed To Be University</h3>
+                        <p>Computer Science Engineering, CGPA 9.05.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <span class="timeline-dot"></span>
+                    <div>
+                        <p class="timeline-period">Continuous</p>
+                        <h3>Frontend and backend practice</h3>
+                        <p>Working on JavaScript, React, Python, and practical full stack fundamentals.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <span class="timeline-dot"></span>
+                    <div>
+                        <p class="timeline-period">Ongoing</p>
+                        <h3>Problem solving and design thinking</h3>
+                        <p>Applying algorithms, clarity, and user-centered design to personal projects.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="activities" class="section">
+            <div class="section-heading" data-reveal>
+                <p class="eyebrow">Activities</p>
+                <h2>Beyond code, I like staying involved in collaboration, learning, and building.</h2>
+            </div>
+
+            <div class="activity-grid">
+                <article class="panel" data-reveal>
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Team collaboration</h3>
+                    <p>Comfortable contributing to group projects and iterating on feedback.</p>
+                </article>
+                <article class="panel" data-reveal>
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Idea exploration</h3>
+                    <p>Enjoy turning rough concepts into structured, presentable product directions.</p>
+                </article>
+                <article class="panel" data-reveal>
+                    <i class="fa-solid fa-rocket"></i>
+                    <h3>Self-driven learning</h3>
+                    <p>Keep adding depth in frontend, AI, and full stack workflows through practice.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section content-section">
+            <div class="contact-card" data-reveal>
+                <div>
+                    <p class="eyebrow">Contact</p>
+                    <h2>Open to internships, collaborations, and product-minded engineering roles.</h2>
+                    <p>
+                        If you want to discuss a project, internship, or portfolio improvement, use the links below to reach out.
+                    </p>
+                    <p class="contact-phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Phone:</span> <a href="tel:+919717339796">+91 97173 39796</a>
+                    </p>
+                    <p class="contact-email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email:</span> <a href="mailto:bhoomikasingh57@gmail.com">bhoomikasingh57@gmail.com</a>
+                    </p>
+                </div>
+
+                <div class="contact-actions">
+                    <a class="btn btn-primary" href="https://www.linkedin.com/in/bhoomika-singh-3738972a8/" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a class="btn btn-secondary" href="https://leetcode.com/u/Bhumi_Ghartaan/" target="_blank" rel="noreferrer">LeetCode</a>
+                    <a class="btn btn-secondary" href="https://github.com/bhuvii08" target="_blank" rel="noreferrer">GitHub</a>
+                    <a class="btn btn-secondary" href="resume1.pdf" download>Resume PDF</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Bhoomika Singh. Built with responsive design in mind.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
